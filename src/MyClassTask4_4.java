@@ -5,7 +5,7 @@ public class MyClassTask4_4 {
         int sum = 0;
         for (int i = 1; i < mass.length - 1; i++)
             sum += mass[i];
-        System.out.println("Сумма" + sum);
+
     }
 }
 
