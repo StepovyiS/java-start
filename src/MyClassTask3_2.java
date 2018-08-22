@@ -16,7 +16,6 @@ public class MyClassTask3_2 {
         mass[8] = 34;
         mass[9] = 999;
         int y = mass[0];
-        Arrays.sort(mass);
         mass[0] = mass[mass.length - 1];
         mass[mass.length - 1] = y;
         System.out.println(Arrays.toString(mass));
