@@ -1,16 +1,14 @@
 import java.util.Arrays;
-
-
+import java.util.Scanner;
 public class MyClassTask3_3 {
-
-
     public static void main(String[]args){
+        Scanner d = new Scanner(System.in);
         int[]books;
         books=new int[4];
-        books[0]=2;
-        books[1]=15;
-        books[2]=3;
-        books[3]=6;
+        books[0]=d.nextInt();
+        books[1]=d.nextInt();
+        books[2]=d.nextInt();
+        books[3]=d.nextInt();
         int x[]= new int[4];
         System.arraycopy(books,0,x,0,books.length);
         int y[]=new int[4];
