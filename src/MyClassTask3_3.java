@@ -9,14 +9,13 @@ public class MyClassTask3_3 {
         books[1]=d.nextInt();
         books[2]=d.nextInt();
         books[3]=d.nextInt();
-        int x[]= new int[4];
-        System.arraycopy(books,0,x,0,books.length);
-        int y[]=new int[4];
-        System.arraycopy(books,0,y,0,books.length);
-        Arrays.sort(x);
-        Arrays.sort(y);
-        System.out.println(Arrays.toString(x));
-        System.out.println(Arrays.toString(y));
+        int[]books1,books2 = new int [4];
+        books1= Arrays.copyOfRange(books, 0, 4);
+        books2 = Arrays.copyOfRange(books, 0, 4);
+        String books1s= Arrays.toString(books1);
+        String books2s = Arrays.toString(books2);
+        System.out.println(books1s);
+        System.out.println(books2s);
 
     }
 
