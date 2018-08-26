@@ -12,10 +12,10 @@ public class MyClassTask3_3 {
         int[]books1,books2 = new int [4];
         books1= Arrays.copyOfRange(books, 0, 4);
         books2 = Arrays.copyOfRange(books, 0, 4);
-        String books1s= Arrays.toString(books1);
-        String books2s = Arrays.toString(books2);
-        System.out.println(books1s);
-        System.out.println(books2s);
+        String books1a= Arrays.toString(books1);
+        String books2b = Arrays.toString(books2);
+        System.out.println(books1a);
+        System.out.println(books2b);
 
     }
 
