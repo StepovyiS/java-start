@@ -5,11 +5,12 @@ public class MyClassTask2_2 {
         Scanner d = new Scanner(System.in);
         int n =d.nextInt();
         int m =d.nextInt();
+        System.out.println(n+m);
         System.out.println(m-n);
         System.out.println(m/n);
         System.out.println(m*m);
-        System.out.println(n&n);
-        System.out.println(m&n);
+        System.out.println((n+m)%n);
+
 
         d.close();
 
